@@ -110,7 +110,6 @@ The Power BI dashboard is divided into four analytical pages:
 | Revenue and Customer Value | Revenue segmentation and discount impact |
 
 ---
----
 
 # ⚠️ Data Note
 
