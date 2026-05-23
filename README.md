@@ -1,10 +1,10 @@
-# E-Commerce Customer Retention Analysis
+# 🚀 E-Commerce Customer Retention Analysis
 
 An end-to-end analytics project built using PostgreSQL and Power BI, focused on understanding why customers stop coming back and which acquisition channels actually bring in long-term buyers.
 
 ---
 
-# Project Overview
+# 📌 Project Overview
 
 This project analyses customer retention, churn behaviour, acquisition channel quality, and revenue contribution for a mid-sized e-commerce business with 6,000 customers across a full year of transaction data.
 
@@ -16,7 +16,7 @@ The workflow covers everything from raw data cleaning in PostgreSQL to SQL-based
 
 ---
 
-# Key Numbers
+# 📊 Key Numbers
 
 | Metric | Value |
 |---|---|
@@ -29,9 +29,9 @@ The workflow covers everything from raw data cleaning in PostgreSQL to SQL-based
 
 ---
 
-# Key Findings
+# 🔍 Key Findings
 
-## Acquisition Channel Performance
+## 📣 Acquisition Channel Performance
 
 Referral was the strongest acquisition channel by far, with a repeat rate of around 42% and the lowest churn across all channels.
 
@@ -41,7 +41,7 @@ Google Ads and Organic acquisition sat in the middle at roughly 26% and 29% repe
 
 ---
 
-## Cohort Retention Decay
+## 📉 Cohort Retention Decay
 
 Retention dropped sharply within the first three months across nearly every cohort.
 
@@ -53,7 +53,7 @@ This suggests that post-purchase engagement is the biggest retention challenge f
 
 ---
 
-## Revenue Concentration
+## 💰 Revenue Concentration
 
 High-value customers contributed 44% of total revenue (approximately Rs. 350K), while medium-value customers contributed another 41% (approximately Rs. 310K).
 
@@ -63,7 +63,7 @@ Low-value customers, despite being the largest group by volume, contributed only
 
 ---
 
-## Discount Impact
+## 🏷️ Discount Impact
 
 Customers who received discounts had a repeat rate of approximately 46%, compared to around 40% for customers without discounts.
 
@@ -71,7 +71,7 @@ The improvement was real but modest, suggesting discounts should be used strateg
 
 ---
 
-# Tools and Technologies
+# 🛠️ Tools and Technologies
 
 | Tool | Purpose |
 |---|---|
@@ -82,7 +82,7 @@ The improvement was real but modest, suggesting discounts should be used strateg
 
 ---
 
-# SQL Views Built
+# 🧠 SQL Views Built
 
 ### customer_segments
 Classifies customers as No Purchase, One-time, Repeat, or Loyal based on order count.
@@ -98,7 +98,7 @@ Tracks month-by-month retention for each customer cohort.
 
 ---
 
-# Dashboard Structure
+# 📈 Dashboard Structure
 
 The Power BI dashboard is divided into four analytical pages:
 
@@ -110,8 +110,17 @@ The Power BI dashboard is divided into four analytical pages:
 | Revenue and Customer Value | Revenue segmentation and discount impact |
 
 ---
+---
 
-# Repository Structure
+# ⚠️ Data Note
+
+This project uses a synthetic dataset designed to simulate realistic e-commerce customer behaviour.
+
+One anomaly worth noting is that the July cohort showed an unusually low Month 1 retention rate of 1%, which is inconsistent with patterns across the other cohorts. This is most likely a limitation of the synthetic dataset rather than a genuine business signal.
+
+In a real-world analytics environment, this type of anomaly would typically be flagged and investigated further before presenting findings to stakeholders.
+
+# 📂 Repository Structure
 
 ```text
 /sql              → Analytical SQL queries and view definitions
