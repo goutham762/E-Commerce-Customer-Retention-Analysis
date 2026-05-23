@@ -121,8 +121,10 @@ In a real-world analytics environment, this type of anomaly would typically be f
 
 # 📂 Repository Structure
 
+# 📂 Repository Structure
+
 ```text
-/sql              → Analytical SQL queries and view definitions
-/dashboard        → Power BI dashboard file (.pbix)
-/screenshots      → Dashboard page screenshots
-/documentation    → Full project report (PDF)
+/screenshots      → Dashboard screenshots
+/sql              → Analytical SQL queries
+Project_Report.pdf → Full project documentation
+README.md         → Project overview and insights
