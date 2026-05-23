@@ -119,7 +119,6 @@ One anomaly worth noting is that the July cohort showed an unusually low Month 1
 
 In a real-world analytics environment, this type of anomaly would typically be flagged and investigated further before presenting findings to stakeholders.
 
-# 📂 Repository Structure
 
 # 📂 Repository Structure
 
