@@ -91,7 +91,8 @@ Classifies customers as No Purchase, One-time, Repeat, or Loyal based on order c
 Flags customers as Churned or Active using a 90-day recency rule.
 
 ### customer_value_segments
-Groups customers by total revenue contribution into High, Medium, and Low value tiers.
+customer_value_segments  
+Segments customers into High, Medium, and Low value tiers by analysing overall customer spending behaviour and revenue contribution levels.
 
 ### cohort_retention_rate
 Tracks month-by-month retention for each customer cohort.
